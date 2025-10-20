@@ -1,0 +1,13 @@
+.DS_Store
+build/
+DerivedData/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+.build/
+Carthage/Build/
+Pods/
+*.ipa
+*.dSYM.zip
