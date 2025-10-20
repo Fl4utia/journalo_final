@@ -7,12 +7,17 @@ struct ContentView: View {
     private var scrapbooks: FetchedResults<Scrapbook>
     
     @State private var showingCreateSheet = false
-    private let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
+    
+    // FIX: Using adaptive layout to achieve perfect centering.
+    // It fits as many items as possible (2 in this case) and centers them.
+    private let columns: [GridItem] = [
+        GridItem(.adaptive(minimum: 150), spacing: 15)
+    ]
 
     var body: some View {
         NavigationView {
             ZStack {
-                // 1. Background Image Layer
+                // Background Layer
                 Image("HomePageBackground")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
@@ -27,7 +32,7 @@ struct ContentView: View {
                         .bold()
                         .padding(.top, 20)
                     
-                    // 2. Passion Note / Header Section
+                    // Header/Note Section
                     VStack(spacing: 10) {
                         Text("Crafting Memories, One Page at a Time.")
                             .font(.title3)
@@ -43,18 +48,18 @@ struct ContentView: View {
                     .cornerRadius(10)
                     .padding(.horizontal)
                     
-                    // 3. Scrollable Scrapbook Grid
+                    // Scrollable Scrapbook Grid
                     ScrollView {
-                        LazyVGrid(columns: columns, spacing: 20) {
+                        LazyVGrid(columns: columns, spacing: 15) {
                             ForEach(scrapbooks, id: \.self) { scrapbook in
-                                // NavigationLink goes to the Content Editor
                                 NavigationLink(destination: ScrapbookContentView(scrapbook: scrapbook)) {
                                     ScrapbookCoverView(scrapbook: scrapbook)
                                 }
                                 .buttonStyle(PlainButtonStyle())
                             }
                         }
-                        .padding()
+                        // Ensures the grid content takes max width and padding handles symmetry
+                        .padding(.horizontal, 16)
                     }
                     
                     // CREATE SCRAPBOOK Button

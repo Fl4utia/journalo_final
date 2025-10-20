@@ -1,33 +1,37 @@
 import SwiftUI
-import UIKit // Required for UIImage
+import UIKit
 import CoreData
 
 struct ScrapbookCoverView: View {
     var scrapbook: Scrapbook
 
     var body: some View {
-        VStack(spacing: 5) {
-            // Display the Cover Image from Binary Data
-            if let imageData = scrapbook.coverImageData, let uiImage = UIImage(data: imageData) {
-                Image(uiImage: uiImage)
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .shadow(radius: 5)
-            } else {
-                // Fallback style
-                Rectangle()
-                    .fill(Color.gray.opacity(0.3))
-                    .frame(height: 180)
-                    .clipShape(RoundedRectangle(cornerRadius: 15))
+        // Explicitly centered VStack
+        VStack(alignment: .center, spacing: 5) {
+            Group {
+                if let imageData = scrapbook.coverImageData, let uiImage = UIImage(data: imageData) {
+                    Image(uiImage: uiImage)
+                        .resizable()
+                        .scaledToFill()
+                } else {
+                    // Fallback rectangle maintains the same shape
+                    Rectangle()
+                        .fill(Color.gray.opacity(0.3))
+                }
             }
+            // Enforced fixed size to standardize the visual ratio (150x200)
+            .frame(width: 150, height: 200)
+            .clipped()
+            .clipShape(RoundedRectangle(cornerRadius: 15))
+            .shadow(radius: 5)
             
-            // Display the created date text
             if let date = scrapbook.creationDate {
                 Text(date, style: .date)
                     .font(.caption)
                     .foregroundColor(.secondary)
+                    .multilineTextAlignment(.center)
             }
         }
+        // FIX: The outer .frame(width: 170) is REMOVED to enable centered adaptive layout.
     }
 }

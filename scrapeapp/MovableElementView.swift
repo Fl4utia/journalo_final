@@ -1,32 +1,28 @@
-//
-//  MovableElementView.swift
-//  scrapeapp
-//
-//  Created by sreedhar rongala on 17/10/25.
-//
-
-import Foundation
 import SwiftUI
 
 struct MovableElementView: View {
     @Binding var element: PageElement
+    @State private var showingEditSheet = false
     
-    // Gestures State
-    @GestureState private var startPosition: CGPoint? = nil // Tracks starting point for drag
-    @GestureState private var startScale: CGFloat? = nil    // Tracks starting size for pinch
-
+    // State to track the temporary translation (drag offset)
+    @State private var currentTranslation: CGSize = .zero
+    
+    // Gestures State (updating remains the same)
+    @GestureState private var startPosition: CGPoint? = nil
+    @GestureState private var startScale: CGFloat? = nil
+    
     // Gesture for Moving the Element
     var dragGesture: some Gesture {
         DragGesture()
             .onChanged { value in
-                let startPos = startPosition ?? element.position
-                element.position = CGPoint(
-                    x: startPos.x + value.translation.width,
-                    y: startPos.y + value.translation.height
-                )
+                // Apply the translation directly to the current state
+                currentTranslation = value.translation
             }
-            .updating($startPosition) { (value, state, transaction) in
-                state = state ?? element.position
+            .onEnded { value in
+                // On end, update the element's absolute position and reset translation
+                element.position.x += value.translation.width
+                element.position.y += value.translation.height
+                currentTranslation = .zero // Reset translation for the next drag
             }
     }
     
@@ -35,7 +31,6 @@ struct MovableElementView: View {
         MagnificationGesture()
             .onChanged { value in
                 let startScl = startScale ?? element.scale
-                // Ensure scale doesn't go too small or too large
                 element.scale = min(max(startScl * value, 0.5), 3.0)
             }
             .updating($startScale) { (value, state, transaction) in
@@ -49,22 +44,38 @@ struct MovableElementView: View {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 150 * element.scale) // Base size, scaled
+                    .frame(width: 150) // Fixed base size
+                    .scaleEffect(element.scale) // Apply visual scale
                     .rotationEffect(.degrees(element.rotation))
                     .border(Color.blue.opacity(0.5), width: 1 / element.scale)
                     
             } else if let text = element.text {
                 Text(text)
-                    .font(.custom("Helvetica", size: 18 * element.scale))
+                    // Apply base font size and custom color
+                    .font(.system(size: element.fontSize))
+                    .foregroundColor(element.textColor)
                     .padding(8)
-                    .background(Color.yellow.opacity(0.8))
+                    .background(Color.clear)
                     .cornerRadius(5 / element.scale)
+                    // Double-tap gesture to open the editor
+                    .onTapGesture(count: 2) {
+                        showingEditSheet = true
+                    }
             }
         }
-        // Apply transformations
-        .scaleEffect(1.0) // Scale handled internally by frame width
+        // Apply saved absolute position
         .position(element.position)
-        // Combine Drag and Pinch gestures to work simultaneously
+        // Apply temporary drag offset only during drag operation
+        .offset(currentTranslation)
+        // Apply the overall scale
+        .scaleEffect(element.scale)
+        
+        // Combine Drag and Pinch gestures
         .gesture(dragGesture.simultaneously(with: pinchGesture))
+        .sheet(isPresented: $showingEditSheet) {
+            if element.text != nil {
+                RichTextEditSheet(element: $element)
+            }
+        }
     }
 }
