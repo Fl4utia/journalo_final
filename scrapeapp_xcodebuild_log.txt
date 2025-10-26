@@ -1,0 +1,402 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme scrapeapp -project /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj -configuration Debug -destination generic/platform=iOS build
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'scrapeapp' in project 'scrapeapp' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 26f7f68b96fee5d9d3405f1fc6a22f03
+Build description path: /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/XCBuildData/26f7f68b96fee5d9d3405f1fc6a22f03.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk /Users/claudiatobias/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.5-22F76-7fa4eea80a99bbfdc046826b63ec4baf.sdkstatcache
+    cd /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.5-22F76-7fa4eea80a99bbfdc046826b63ec4baf.sdkstatcache
+
+CreateBuildDirectory /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products
+    cd /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj
+    builtin-create-build-directory /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products
+
+CreateBuildDirectory /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex
+    cd /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj
+    builtin-create-build-directory /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos
+    cd /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj
+    builtin-create-build-directory /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos
+
+CreateBuildDirectory /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+    cd /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj
+    builtin-create-build-directory /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp-ab9ea718950491d061de04c11293e64b-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp-ab9ea718950491d061de04c11293e64b-VFS-iphoneos/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-project-headers.hmap (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-project-headers.hmap
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-own-target-headers.hmap (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-all-target-headers.hmap (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-all-non-framework-target-headers.hmap (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-DebugDylibPath-normal-arm64.txt (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-generated-files.hmap (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-generated-files.hmap
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.hmap (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.hmap
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.DependencyStaticMetadataFileList (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.DependencyMetadataFileList (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-DebugDylibInstallName-normal-arm64.txt (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/empty-scrapeapp.plist (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/empty-scrapeapp.plist
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_const_extract_protocols.json (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftFileList (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftFileList
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftConstValuesFileList (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.LinkFileList (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.LinkFileList
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-OutputFileMap.json (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/Entitlements.plist (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    write-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/Entitlements.plist
+
+MkDir /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /bin/mkdir -p /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app
+
+ProcessProductPackaging /Users/claudiatobias/Library/Developer/Xcode/UserData/Provisioning\ Profiles/5fb21007-4ed4-4e3c-ba6b-70cd43509732.mobileprovision /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/embedded.mobileprovision (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-productPackagingUtility /Users/claudiatobias/Library/Developer/Xcode/UserData/Provisioning\ Profiles/5fb21007-4ed4-4e3c-ba6b-70cd43509732.mobileprovision -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/embedded.mobileprovision
+
+ProcessProductPackaging "" /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.app.xcent (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "M7Q7C6LFK9.claudia.journo.scrapbook";
+    "com.apple.developer.team-identifier" = M7Q7C6LFK9;
+    "get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.app.xcent
+
+ProcessProductPackagingDER /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.app.xcent /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.app.xcent.der (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /usr/bin/derq query -f xml -i /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.app.xcent -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.app.xcent.der --raw
+
+Ld /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/__preview.dylib normal (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -O0 -L/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -F/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -install_name @rpath/scrapeapp.debug.dylib -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_dependency_info.dat -Xlinker -no_adhoc_codesign -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/__preview.dylib
+
+MkDir /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_output/thinned (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /bin/mkdir -p /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_output/thinned
+
+MkDir /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_output/unthinned (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /bin/mkdir -p /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_output/unthinned
+
+GenerateAssetSymbols /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Assets.xcassets (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Assets.xcassets --compile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_dependencies --output-partial-info-plist /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 26.0 --platform iphoneos --bundle-identifier claudia.journo.scrapbook --generate-swift-asset-symbols /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CompileAssetCatalogVariant thinned /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Assets.xcassets (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Assets.xcassets --compile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 26.0 --platform iphoneos
+/* com.apple.actool.document.warnings */
+/Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Assets.xcassets:.: warning: The minimum deployment target is set to 26.0, but the platform only knows how to compile for iOS 18.5
+/* com.apple.actool.compilation-results */
+/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_generated_info.plist_thinned
+/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_output/thinned/Assets.car
+
+
+SwiftDriver scrapeapp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name scrapeapp -Onone -enforce-exclusivity\=checked @/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios26.0 -g -module-cache-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Index.noindex/DataStore -swift-version 5 -I /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -F /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.5-22F76-7fa4eea80a99bbfdc046826b63ec4baf.sdkstatcache -output-file-map /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-generated-files.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-own-target-headers.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-project-headers.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/include -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources-normal/arm64 -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/arm64 -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-Swift.h -working-directory /Users/claudiatobias/Documents/Apple/journalo_final -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ ScrapbookEditView.swift,\ RichTextEditSheet.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ScrapbookEditView.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/RichTextEditSheet.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ScrapbookEditView.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/RichTextEditSheet.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 Compiling\ ScrapbookCoverView.swift,\ Persistence.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ScrapbookCoverView.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Persistence.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ScrapbookCoverView.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Persistence.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 Compiling\ MovableElementView.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/MovableElementView.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/MovableElementView.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 Compiling\ ImagePicker.swift,\ TextEntrySheet.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ImagePicker.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/TextEntrySheet.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ImagePicker.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/TextEntrySheet.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ scrapeapp (in target 'scrapeapp' from project 'scrapeapp')
+
+EmitSwiftModule normal arm64 (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 Compiling\ ScrapbookPage.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ScrapbookPage.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ScrapbookPage.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 Compiling\ CoverSelectionView.swift,\ scrapeappApp.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/CoverSelectionView.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/scrapeappApp.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/CoverSelectionView.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/scrapeappApp.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ContentView.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ContentView.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 Compiling\ ScrapbookContentView.swift,\ PageBackgroundView.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ScrapbookContentView.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/PageBackgroundView.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/ScrapbookContentView.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/PageBackgroundView.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 Compiling\ Scrapbook+CoreDataClass.swift /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Scrapbook+CoreDataClass.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftCompile normal arm64 /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Scrapbook+CoreDataClass.swift (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling ScrapbookCoverView.swift, Persistence.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling CoverSelectionView.swift, scrapeappApp.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ImagePicker.swift, TextEntrySheet.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ScrapbookPage.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling MovableElementView.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for scrapeapp (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriver\ Compilation\ Requirements scrapeapp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name scrapeapp -Onone -enforce-exclusivity\=checked @/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios26.0 -g -module-cache-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Index.noindex/DataStore -swift-version 5 -I /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -F /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.5-22F76-7fa4eea80a99bbfdc046826b63ec4baf.sdkstatcache -output-file-map /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-generated-files.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-own-target-headers.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-project-headers.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/include -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources-normal/arm64 -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/arm64 -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-Swift.h -working-directory /Users/claudiatobias/Documents/Apple/journalo_final -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/scrapeapp-Swift.h /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-Swift.h (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-swiftHeaderTool -arch arm64 /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-Swift.h -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/scrapeapp-Swift.h
+
+Copy /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.swiftmodule/arm64-apple-ios.abi.json /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.abi.json (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.abi.json /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.swiftmodule/arm64-apple-ios.abi.json
+
+Copy /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.swiftmodule/arm64-apple-ios.swiftmodule /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftmodule (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftmodule /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftsourceinfo (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftsourceinfo /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+Copy /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.swiftmodule/arm64-apple-ios.swiftdoc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftdoc (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftdoc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.swiftmodule/arm64-apple-ios.swiftdoc
+
+SwiftDriverJobDiscovery normal arm64 Compiling ContentView.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling Scrapbook+CoreDataClass.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ScrapbookEditView.swift, RichTextEditSheet.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ScrapbookContentView.swift, PageBackgroundView.swift (in target 'scrapeapp' from project 'scrapeapp')
+
+SwiftDriver\ Compilation scrapeapp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name scrapeapp -Onone -enforce-exclusivity\=checked @/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios26.0 -g -module-cache-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Index.noindex/DataStore -swift-version 5 -I /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -F /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.5-22F76-7fa4eea80a99bbfdc046826b63ec4baf.sdkstatcache -output-file-map /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-generated-files.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-own-target-headers.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-project-headers.hmap -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/include -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources-normal/arm64 -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources/arm64 -Xcc -I/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp-Swift.h -working-directory /Users/claudiatobias/Documents/Apple/journalo_final -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp.debug.dylib normal (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -O0 -L/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -L/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -F/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -F/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -filelist /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.LinkFileList -install_name @rpath/scrapeapp.debug.dylib -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -Xlinker -no_adhoc_codesign -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-ExecutorLinkFileList-normal-arm64.txt (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    construct-stub-executor-link-file-list /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'scrapeapp' from project 'scrapeapp')
+
+Ld /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp normal (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -O0 -L/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -F/Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp-ExecutorLinkFileList-normal-arm64.txt /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp
+
+LinkAssetCatalog /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp/Assets.xcassets (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-linkAssetCatalog --thinned /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_output/thinned --thinned-dependencies /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_generated_info.plist_unthinned --output /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app --plist-output /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/Assets.car (in target 'scrapeapp' from project 'scrapeapp')
+
+ProcessInfoPlistFile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/Info.plist /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/empty-scrapeapp.plist (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-infoPlistUtility /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/empty-scrapeapp.plist -producttype com.apple.product-type.application -genpkginfo /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/Info.plist
+
+ExtractAppIntentsMetadata (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name scrapeapp --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk --xcode-version 16F6 --platform-family iOS --deployment-target 26.0 --bundle-identifier claudia.journo.scrapbook --output /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app --target-triple arm64-apple-ios26.0 --binary-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp --dependency-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp_dependency_info.dat --stringsdata-file /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftFileList --metadata-file-list /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.DependencyMetadataFileList --static-metadata-file-list /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.DependencyStaticMetadataFileList --swift-const-vals-list /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/Objects-normal/arm64/scrapeapp.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2025-10-21 09:26:22.354 appintentsmetadataprocessor[83867:2399000] Starting appintentsmetadataprocessor export
+2025-10-21 09:26:22.356 appintentsmetadataprocessor[83867:2399000] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CopySwiftLibs /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-swiftStdLibTool --copy --verbose --sign 2754055BD9DD0C4943D7FB604B5D0AB007F3094D --scan-executable /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp.debug.dylib --scan-folder /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/Frameworks --scan-folder /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/PlugIns --scan-folder /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/SystemExtensions --scan-folder /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/Extensions --platform iphoneos --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+AppIntentsSSUTraining (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/Info.plist --temp-dir-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/ssu --bundle-id claudia.journo.scrapbook --product-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app --extracted-metadata-path /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/Metadata.appintents --metadata-file-list /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.DependencyMetadataFileList --archive-ssu-assets
+2025-10-21 09:26:22.371 appintentsnltrainingprocessor[83868:2399001] Parsing options for appintentsnltrainingprocessor
+2025-10-21 09:26:22.371 appintentsnltrainingprocessor[83868:2399001] No AppShortcuts found - Skipping.
+
+CodeSign /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp.debug.dylib (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+    Signing Identity:     "Apple Development: ximenasaibot@gmail.com (T277M85L97)"
+    Provisioning Profile: "iOS Team Provisioning Profile: claudia.journo.scrapbook"
+                          (5fb21007-4ed4-4e3c-ba6b-70cd43509732)
+    
+    /usr/bin/codesign --force --sign 2754055BD9DD0C4943D7FB604B5D0AB007F3094D --timestamp\=none --generate-entitlement-der /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/scrapeapp.debug.dylib
+
+CodeSign /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/__preview.dylib (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+    Signing Identity:     "Apple Development: ximenasaibot@gmail.com (T277M85L97)"
+    Provisioning Profile: "iOS Team Provisioning Profile: claudia.journo.scrapbook"
+                          (5fb21007-4ed4-4e3c-ba6b-70cd43509732)
+    
+    /usr/bin/codesign --force --sign 2754055BD9DD0C4943D7FB604B5D0AB007F3094D --timestamp\=none --generate-entitlement-der /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app/__preview.dylib
+
+CodeSign /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    
+    Signing Identity:     "Apple Development: ximenasaibot@gmail.com (T277M85L97)"
+    Provisioning Profile: "iOS Team Provisioning Profile: claudia.journo.scrapbook"
+                          (5fb21007-4ed4-4e3c-ba6b-70cd43509732)
+    
+    /usr/bin/codesign --force --sign 2754055BD9DD0C4943D7FB604B5D0AB007F3094D --entitlements /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Intermediates.noindex/scrapeapp.build/Debug-iphoneos/scrapeapp.build/scrapeapp.app.xcent --timestamp\=none --generate-entitlement-der /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app
+
+RegisterExecutionPolicyException /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-RegisterExecutionPolicyException /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app
+
+Validate /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    builtin-validationUtility /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app -infoplist-subpath Info.plist
+
+Touch /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app (in target 'scrapeapp' from project 'scrapeapp')
+    cd /Users/claudiatobias/Documents/Apple/journalo_final
+    /usr/bin/touch -c /Users/claudiatobias/Library/Developer/Xcode/DerivedData/scrapeapp-dyrvafcmkydihagnzzvyznryqrjh/Build/Products/Debug-iphoneos/scrapeapp.app
+
+/Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 26.0, but the range of supported deployment target versions is 12.0 to 18.5.99. (in target 'scrapeapp' from project 'scrapeapp')
+** BUILD SUCCEEDED **
+

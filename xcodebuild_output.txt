@@ -1,0 +1,16 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme scrapeapp -project /Users/claudiatobias/Documents/Apple/journalo_final/scrapeapp.xcodeproj -configuration Debug -destination "platform=iOS Simulator,name=iPhone 14" build
+
+2025-10-21 09:25:12.227 xcodebuild[83651:2395253] Writing error result bundle to /var/folders/2b/4cj4nd8n4390ljf2zylxjt_c0000gp/T/ResultBundle_2025-21-10_09-25-0012.xcresult
+xcodebuild: error: Unable to find a device matching the provided destination specifier:
+		{ platform:iOS Simulator, OS:latest, name:iPhone 14 }
+
+	The requested device could not be found because no available devices matched the request.
+
+	Available destinations for the "scrapeapp" scheme:
+		{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+		{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+
+	Ineligible destinations for the "scrapeapp" scheme:
+		{ platform:iOS, arch:arm64e, id:00008030-000A24181E92802E, name:iPhone Ximena, error:iPhone Ximena’s iOS 18.3.1 doesn’t match scrapeapp.app’s iOS 26.0 deployment target. Upgrade iPhone Ximena’s iOS version or lower scrapeapp.app’s deployment target. }
+		{ platform:iOS, arch:arm64e, id:00008140-00150C240151801C, name:iPhone Ximena🪿, error:iPhone Ximena🪿’s iOS 18.7.1 doesn’t match scrapeapp.app’s iOS 26.0 deployment target. Upgrade iPhone Ximena🪿’s iOS version or lower scrapeapp.app’s deployment target. }
